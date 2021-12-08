@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/crispy-octo-couscous/static/css/main.9803474e.chunk.css",
+    "main.js": "/crispy-octo-couscous/static/js/main.3b6191a9.chunk.js",
+    "main.js.map": "/crispy-octo-couscous/static/js/main.3b6191a9.chunk.js.map",
+    "runtime-main.js": "/crispy-octo-couscous/static/js/runtime-main.d312aa7f.js",
+    "runtime-main.js.map": "/crispy-octo-couscous/static/js/runtime-main.d312aa7f.js.map",
+    "static/css/2.bc922b9c.chunk.css": "/crispy-octo-couscous/static/css/2.bc922b9c.chunk.css",
+    "static/js/2.20408726.chunk.js": "/crispy-octo-couscous/static/js/2.20408726.chunk.js",
+    "static/js/2.20408726.chunk.js.map": "/crispy-octo-couscous/static/js/2.20408726.chunk.js.map",
+    "index.html": "/crispy-octo-couscous/index.html",
+    "static/css/2.bc922b9c.chunk.css.map": "/crispy-octo-couscous/static/css/2.bc922b9c.chunk.css.map",
+    "static/css/main.9803474e.chunk.css.map": "/crispy-octo-couscous/static/css/main.9803474e.chunk.css.map",
+    "static/js/2.20408726.chunk.js.LICENSE.txt": "/crispy-octo-couscous/static/js/2.20408726.chunk.js.LICENSE.txt",
+    "static/media/default.2e01288c.jpg": "/crispy-octo-couscous/static/media/default.2e01288c.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d312aa7f.js",
+    "static/css/2.bc922b9c.chunk.css",
+    "static/js/2.20408726.chunk.js",
+    "static/css/main.9803474e.chunk.css",
+    "static/js/main.3b6191a9.chunk.js"
+  ]
+}
