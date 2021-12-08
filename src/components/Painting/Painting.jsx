@@ -1,3 +1,4 @@
+import s from './Painting.module.css';
 import defaultImage from './default.jpg';
 
 const Painting = function ({
@@ -8,7 +9,7 @@ const Painting = function ({
   quantity,
 }) {
   return (
-    <div>
+    <div className={s.container}>
       <img src={url} alt={title} width="480" />
       <h2>{title}</h2>
       <p>
