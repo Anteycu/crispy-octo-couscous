@@ -1,10 +1,11 @@
-import PaintingList from './components/PaintingList';
-import Section from './components/Section';
-import ColorPicker from './components/ColorPicker/ColorPicker';
-import Alert from './components/Alert/Alert';
+// import PaintingList from './components/PaintingList';
+// import Section from './components/Section';
+// import ColorPicker from './components/ColorPicker/ColorPicker';
+// import Alert from './components/Alert/Alert';
 import Container from './components/Container/Container';
-import Box from './components/Box/Box';
-import paintings from './paintings.json';
+// import Box from './components/Box/Box';
+// import paintings from './paintings.json';
+import Counter from './components/Counter/Counter';
 
 const colorPickerOptions = [
   { label: 'red', color: '#F44336' },
@@ -18,7 +19,7 @@ const colorPickerOptions = [
 const App = function () {
   return (
     <Container>
-      <Box type="small" classNames="big red" styles={{ color: '#fff' }} />
+      {/* <Box type="small" classNames="big red" styles={{ color: '#fff' }} />
       <Box type="medium" />
       <Box type="large" />
       <Alert text="We lost data Master!" type="success" />
@@ -28,7 +29,9 @@ const App = function () {
         <PaintingList items={paintings} />
       </Section>
       <ColorPicker options={colorPickerOptions} />
-      <Section title="Best" />
+      <Section title="Best" /> */}
+      <h1>State of component</h1>
+      <Counter initialValue={10} />
     </Container>
   );
 };
