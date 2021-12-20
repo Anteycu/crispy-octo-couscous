@@ -1,11 +1,12 @@
 // import PaintingList from './components/PaintingList';
 // import Section from './components/Section';
-// import ColorPicker from './components/ColorPicker/ColorPicker';
 // import Alert from './components/Alert/Alert';
 import Container from './components/Container/Container';
 // import Box from './components/Box/Box';
 // import paintings from './paintings.json';
-import Counter from './components/Counter/Counter';
+import ColorPicker from './components/ColorPicker/ColorPicker';
+// import Counter from './components/Counter/Counter';
+// import Dropdown from './components/Dropdown/Dropdown';
 
 const colorPickerOptions = [
   { label: 'red', color: '#F44336' },
@@ -28,10 +29,11 @@ const App = function () {
       <Section title="Top of week">
         <PaintingList items={paintings} />
       </Section>
-      <ColorPicker options={colorPickerOptions} />
       <Section title="Best" /> */}
       <h1>State of component</h1>
-      <Counter initialValue={10} />
+      {/* <Counter initialValue={10} /> */}
+      {/* <Dropdown /> */}
+      <ColorPicker options={colorPickerOptions} />
     </Container>
   );
 };
