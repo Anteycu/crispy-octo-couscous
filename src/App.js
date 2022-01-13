@@ -35,6 +35,23 @@ class App extends Component {
     }));
   };
 
+  toggleCompleted = todoId => {
+    console.log(todoId);
+
+    this.setState(prevState => ({
+      todos: prevState.todos.map(todo => {
+        if (todo.id === todoId) {
+          console.log('Find todo what we need!');
+          return {
+            ...todo,
+            completed: !todo.completed,
+          };
+        }
+        return todo;
+      }),
+    }));
+  };
+
   formSubmitHandler = data => {
     console.log(data);
   };
